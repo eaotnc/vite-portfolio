@@ -1,0 +1,13 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #1c1c1c;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+
+  .item {
+    margin: 10px;
+  }
+}
