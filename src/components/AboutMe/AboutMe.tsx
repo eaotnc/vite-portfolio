@@ -1,3 +1,4 @@
+import "./AboutMe.scss";
 const AboutMe = () => {
   return (
     <div>

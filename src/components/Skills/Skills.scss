@@ -1,0 +1,21 @@
+.skills {
+  margin-top: 100px;
+  width: 100%;
+  .skill-item {
+    width: 330px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .skill-title {
+    margin-right: 10px;
+    color: #fcd34d;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    margin: 10px;
+    width: 50px;
+  }
+}

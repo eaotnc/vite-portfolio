@@ -1,18 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.scss";
 import NavBar from "./components/Navbar/Navbar";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
     <>
       <div>
         <NavBar />
-        <Home />
+
         <div className="main-content-layout">
+          <Home />
+          <Skills />
           <div className="flex justify-space-between mt-20">
             {/* <img
               className="mr-20"

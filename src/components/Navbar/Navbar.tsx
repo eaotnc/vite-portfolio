@@ -7,6 +7,8 @@ const NavBar = () => {
       <div className="item">Skills </div>
       <div className="item">Experience </div>
       <div className="item">Certificate </div>
+      <div className="item">Events </div>
+      <div className="item">Awards </div>
       <div className="item">Hobbies </div>
     </div>
   );

@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./Home.scss";
 const Home = () => {
   return (
-    <div className="flex justify-center mt-20">
+    <div className="home flex justify-center ">
       <div>
         <h1>Thanatcha </h1>
         <h1>Pitithadakul </h1>
