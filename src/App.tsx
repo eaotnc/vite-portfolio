@@ -2,37 +2,49 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.scss";
-import { Button } from "antd";
 import NavBar from "./components/Navbar/Navbar";
-
+import profilepic from "./assets/profile.png";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
         <NavBar />
 
-        <a href="https://vitejs.dev" target="_blank">
+        <div className="main-content-layout">
+          <div className="flex justify-center">
+            <div>
+              <h1>Thanatcha </h1>
+              <h1>Pitithadakul </h1>
+              <h1 className="text-amber-300">--Software Developer</h1>
+              <p className="p-6 w-80">
+                5-year software developer. strongly work with
+                <span className="text-amber-300">
+                  {" "}
+                  Reactjs, angular, vuejs, nodejs,
+                </span>
+                and lately <span className="text-amber-300">Flutter.</span> like
+                to make good code quality. love to learn new things. like to
+                work as a team. have lovely hobbies as a photographer
+              </p>
+            </div>
+            <img
+              className="profile-pic ml-8"
+              src={profilepic}
+              alt="profile pic"
+            />
+          </div>
+          <div className="about-me">
+            <div className="header">Contact Info</div>
+          </div>
+        </div>
+
+        {/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        </a> */}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <Button type="primary">Button</Button>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }

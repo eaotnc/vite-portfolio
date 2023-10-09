@@ -33,3 +33,26 @@
 .read-the-docs {
   color: #888;
 }
+
+.main-content-layout {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+
+  .profile-pic {
+    width: 200px;
+    opacity: 0.9;
+  }
+}
+
+.about-me {
+  margin: 10% 100px;
+  .header {
+    width: 150px;
+    border-bottom: 2px solid #fcd34d;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+  }
+}

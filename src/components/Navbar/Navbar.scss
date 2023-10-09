@@ -8,6 +8,13 @@
   justify-content: end;
 
   .item {
-    margin: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+  }
+
+  :hover.item {
+    color: #e0dd5a;
   }
 }
