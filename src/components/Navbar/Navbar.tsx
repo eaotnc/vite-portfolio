@@ -1,15 +1,50 @@
 import "./Navbar.scss";
-const NavBar = () => {
+
+const NavBar: React.FC<{ scrollTo: (index: number) => void }> = ({
+  scrollTo,
+}) => {
   return (
     <div className="navbar px-24">
-      <div className="item">Home </div>
-      <div className="item">About Me </div>
-      <div className="item">Skills </div>
-      <div className="item">Experience </div>
-      <div className="item">Certificate </div>
-      <div className="item">Events </div>
-      <div className="item">Awards </div>
-      <div className="item">Hobbies </div>
+      <div
+        className="item"
+        onClick={() => {
+          scrollTo(0);
+        }}
+      >
+        Home
+      </div>
+      <div
+        className="item"
+        onClick={() => {
+          scrollTo(1);
+        }}
+      >
+        About Me
+      </div>
+      <div
+        className="item"
+        onClick={() => {
+          scrollTo(2);
+        }}
+      >
+        Skills
+      </div>
+      <div
+        className="item"
+        onClick={() => {
+          scrollTo(3);
+        }}
+      >
+        Experience
+      </div>
+      <div
+        className="item"
+        onClick={() => {
+          scrollTo(4);
+        }}
+      >
+        Certificate
+      </div>
     </div>
   );
 };

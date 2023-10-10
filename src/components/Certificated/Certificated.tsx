@@ -1,8 +1,9 @@
+import React from "react";
 import "./Certificated.scss";
 
-const Certificated = () => {
+const Certificated = React.forwardRef((props, ref) => {
   return (
-    <div className="certificated">
+    <div ref={ref} className="certificated">
       <div className="">
         <div className="header">Certificate (online)</div>
         <div className="flex justify-center flex-wrap">
@@ -34,6 +35,6 @@ const Certificated = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Certificated;

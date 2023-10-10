@@ -5,19 +5,36 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Certificated from "./components/Certificated/Certificated";
+import { useRef } from "react";
 
 function App() {
+  const componentsToScrollTo = [
+    useRef<HTMLDivElement | null>(null),
+    useRef<HTMLDivElement | null>(null),
+    useRef<HTMLDivElement | null>(null),
+    useRef<HTMLDivElement | null>(null),
+    useRef<HTMLDivElement | null>(null),
+  ];
+
+  const scrollToComponent = (index: number) => {
+    if (componentsToScrollTo[index]?.current) {
+      componentsToScrollTo[index].current.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <>
       <div>
-        <NavBar />
+        <NavBar scrollTo={scrollToComponent} />
 
         <div className="main-content-layout">
-          <Home />
-          <Skills />
-          <AboutMe />
-          <Experience />
-          <Certificated />
+          <Home ref={componentsToScrollTo[0]} />
+          <Skills ref={componentsToScrollTo[1]} />
+          <AboutMe ref={componentsToScrollTo[2]} />
+          <Experience ref={componentsToScrollTo[3]} />
+          <Certificated ref={componentsToScrollTo[4]} />
           <div className="text-gray-400 h-10 mt-10 flex justify-between">
             <div>©thanatcha P. website 2023</div>
 

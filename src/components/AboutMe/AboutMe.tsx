@@ -1,9 +1,11 @@
 import "./AboutMe.scss";
 import profileGrad from "../../assets/profile-gradx.jpg";
+import { Ref } from "react";
+import React from "react";
 
-const AboutMe = () => {
+const AboutMe = React.forwardRef((props, ref) => {
   return (
-    <div className="about-me flex justify-space-between mt-20">
+    <div ref={ref} className="about-me flex justify-space-between mt-20">
       <img
         className="mr-20"
         style={{ width: 250, height: 350 }}
@@ -64,6 +66,6 @@ const AboutMe = () => {
       </div>
     </div>
   );
-};
+});
 
 export default AboutMe;

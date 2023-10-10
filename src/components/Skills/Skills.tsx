@@ -10,10 +10,11 @@ import flutter from "../../assets/flutter-logo.png";
 import bloC from "../../assets/bloc_logo.png";
 import nest from "../../assets/NestJS.svg";
 import docker from "../../assets/dockerlogo.png";
+import React from "react";
 
-const Skills = () => {
+const Skills = React.forwardRef((props, ref) => {
   return (
-    <div className="skills">
+    <div ref={ref} className="skills">
       <div className="header"> Programming Skills</div>
       <div className="flex flex-wrap justify-between">
         <div className="skill-item">
@@ -105,5 +106,5 @@ const Skills = () => {
       </div>
     </div>
   );
-};
+});
 export default Skills;

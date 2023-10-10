@@ -1,11 +1,10 @@
+import React from "react";
 import profilepic from "../../assets/profile-big.png";
-import reactLogo from "../../assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./Home.scss";
 import { SocialIcon } from "react-social-icons";
-const Home = () => {
+const Home = React.forwardRef((props, ref) => {
   return (
-    <div className="home flex justify-center ">
+    <div ref={ref} className="home flex justify-center ">
       <div>
         <h1>Thanatcha </h1>
         <h1>Pitithadakul </h1>
@@ -49,5 +48,5 @@ const Home = () => {
       <img className="profile-pic ml-8" src={profilepic} alt="profile pic" />
     </div>
   );
-};
+});
 export default Home;
