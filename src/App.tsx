@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
+import Certificated from "./components/Certificated/Certificated";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Skills />
           <AboutMe />
           <Experience />
-          <div className="h-80"></div>
+          <Certificated />
         </div>
       </div>
     </>
