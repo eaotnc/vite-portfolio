@@ -1,9 +1,8 @@
 import "./AboutMe.scss";
 import profileGrad from "../../assets/profile-gradx.jpg";
-import { Ref } from "react";
 import React from "react";
 
-const AboutMe = React.forwardRef((props, ref) => {
+const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div
       ref={ref}

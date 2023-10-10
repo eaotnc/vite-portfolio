@@ -2,7 +2,7 @@ import React from "react";
 import profilepic from "../../assets/profile-big.png";
 import "./Home.scss";
 import { SocialIcon } from "react-social-icons";
-const Home = React.forwardRef((props, ref) => {
+const Home = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref} className="home flex justify-center flex-wrap">
       <div>

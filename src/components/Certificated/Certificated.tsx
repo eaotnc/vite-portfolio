@@ -3,7 +3,7 @@ import "./Certificated.scss";
 import reactcert from "../../assets/frontend-libraly.png";
 import html from "../../assets/responsive-web-design.png";
 
-const Certificated = React.forwardRef((props, ref) => {
+const Certificated = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref} className="certificated">
       <div className="">

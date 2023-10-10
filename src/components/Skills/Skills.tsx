@@ -1,4 +1,5 @@
 import "./Skills.scss";
+import React from "react";
 import reactLogo from "../../assets/react.svg";
 import vueLogo from "../../assets/vuejs.png";
 import angular from "../../assets/angularlogo.png";
@@ -10,9 +11,8 @@ import flutter from "../../assets/flutter-logo.png";
 import bloC from "../../assets/bloc_logo.png";
 import nest from "../../assets/NestJS.svg";
 import docker from "../../assets/dockerlogo.png";
-import React from "react";
 
-const Skills = React.forwardRef((props, ref) => {
+const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref} className="skills">
       <div className="header"> Programming Skills</div>

@@ -17,8 +17,9 @@ function App() {
   ];
 
   const scrollToComponent = (index: number) => {
-    if (componentsToScrollTo[index]?.current) {
-      componentsToScrollTo[index].current.scrollIntoView({
+    const elementToScrollTo = componentsToScrollTo[index]?.current;
+    if (elementToScrollTo) {
+      elementToScrollTo.scrollIntoView({
         behavior: "smooth",
       });
     }
