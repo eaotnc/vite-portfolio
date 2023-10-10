@@ -1,5 +1,5 @@
 import "./AboutMe.scss";
-import profileGrad from "../../assets/profile-grad.jpg";
+import profileGrad from "../../assets/profile-gradx.jpg";
 
 const AboutMe = () => {
   return (

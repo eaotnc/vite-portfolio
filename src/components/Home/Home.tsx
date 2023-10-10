@@ -2,6 +2,7 @@ import profilepic from "../../assets/profile-big.png";
 import reactLogo from "../../assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./Home.scss";
+import { SocialIcon } from "react-social-icons";
 const Home = () => {
   return (
     <div className="home flex justify-center ">
@@ -18,13 +19,31 @@ const Home = () => {
           make good code quality. love to learn new things. like to work as a
           team. have lovely hobbies as a photographer
         </p>
+
         <div className="flex">
-          <a href="https://vitejs.dev" target="_blank">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://react.dev" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
+          <SocialIcon
+            className="socialIcon"
+            bgColor="#242424"
+            url="https://www.linkedin.com/in/thanatcha-pitithadakul-8b19b3137/"
+          />
+          <SocialIcon
+            className="socialIcon"
+            bgColor="#242424"
+            color=""
+            url="https://github.com/eaotnc"
+          />
+          <SocialIcon
+            className="socialIcon"
+            bgColor="#242424"
+            color=""
+            url=" https://www.facebook.com/EaoTnc"
+          />
+          <SocialIcon
+            className="socialIcon"
+            bgColor="#242424"
+            color=""
+            url="https://www.instagram.com/eao.thanatcha/"
+          />
         </div>
       </div>
       <img className="profile-pic ml-8" src={profilepic} alt="profile pic" />
