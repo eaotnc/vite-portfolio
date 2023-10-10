@@ -9,29 +9,40 @@
     color: #fcd34d;
     border-bottom: 3px solid #48bdc9;
 
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     text-align: right;
   }
+  .vertical-bar {
+    border-left: 3px solid #48bdc9;
+    margin: 10px;
+    margin-left: 40px;
+  }
 
   .company-name {
-    margin-left: 40px;
-
     padding: 20px;
+    background: #3f3f3f;
+    max-width: 600px;
+    border-radius: 20px;
     font-size: 23px;
   }
 
   .project {
     margin: 10px;
-    max-width: 400px;
+    max-width: 100%;
     padding: 20px;
     border-radius: 20px;
-    background: #3d3d3d;
+    background: #242323;
+
     .project-name {
       margin-bottom: 10px;
       font-weight: bold;
       font-size: 18px;
       color: #fcd34d;
     }
+  }
+
+  :hover.project {
+    border: 1px solid #3f3f3f;
   }
 }

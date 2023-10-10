@@ -8,7 +8,7 @@ import Wisible from "./Wisible";
 const Experience = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="experience">
-      <div className="header">Experience</div>
+      <div className="header mb-10">Experience</div>
       <BizcuitSolution />
       <AIS />
       <MoomMoong />

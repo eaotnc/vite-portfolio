@@ -4,7 +4,7 @@ import "./Home.scss";
 import { SocialIcon } from "react-social-icons";
 const Home = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="home flex justify-center ">
+    <div ref={ref} className="home flex justify-center flex-wrap">
       <div>
         <h1>Thanatcha </h1>
         <h1>Pitithadakul </h1>

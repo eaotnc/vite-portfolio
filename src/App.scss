@@ -38,3 +38,9 @@
     font-weight: bold;
   }
 }
+
+@media screen and (max-width: 890px) {
+  .main-content-layout {
+    max-width: 100%;
+  }
+}

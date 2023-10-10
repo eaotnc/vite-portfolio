@@ -12,18 +12,21 @@ const MoomMoong = () => {
         </a>
         <div></div>
       </div>
-      <div className="flex justify-center flex-wrap">
-        <div className="project">
-          <div className="project-name"> MoomMoong Vue website </div>
-          <div>
-            The training platform web site coporate with Department of Mental
-            Health ThaiGov. for reruit deep-listener
+      <div className="flex">
+        <div className="vertical-bar" />
+        <div>
+          <div className="project">
+            <div className="project-name"> MoomMoong Vue website </div>
+            <div>
+              The training platform web site coporate with Department of Mental
+              Health ThaiGov. for reruit deep-listener
+            </div>
+            <div>- Be a Full-stack developer creating new project using</div>
+            <span className="text-amber-300">
+              Nuxtjs-Vuejs2,VueX, vuetify, semanticUi, firebaseAuth, fireStore,
+              fireStorage, firebaseCloundFunction
+            </span>
           </div>
-          <div>- Be a Full-stack developer creating new project using</div>
-          <span className="text-amber-300">
-            Nuxtjs-Vuejs2,VueX, vuetify, semanticUi, firebaseAuth, fireStore,
-            fireStorage, firebaseCloundFunction
-          </span>
         </div>
       </div>
     </div>

@@ -5,7 +5,10 @@ import React from "react";
 
 const AboutMe = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="about-me flex justify-space-between mt-20">
+    <div
+      ref={ref}
+      className="about-me flex flex-wrap justify-space-between mt-20"
+    >
       <img
         className="mr-20"
         style={{ width: 250, height: 350 }}
