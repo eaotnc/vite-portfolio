@@ -1,8 +1,38 @@
 import "./AboutMe.scss";
+import profileGrad from "../../assets/profile-grad.jpg";
+
 const AboutMe = () => {
   return (
-    <div>
-      <div className="about-me ">
+    <div className="about-me flex justify-space-between mt-20">
+      <img
+        className="mr-20"
+        style={{ width: 250, height: 350 }}
+        src={profileGrad}
+        alt="profileGrad"
+      />
+      <div>
+        <div className="about-me mt-10">
+          <div className="header">Education</div>
+          <div className="content flex">
+            <span className="title">2014 - 2018</span>
+            <div>
+              <div className="font-bold">Computer Engineering</div>
+              <div>
+                King mongkut's institute of technology ladkrabang GPA: 2.64
+              </div>
+              <div className="text-bold">TOEIC Score : 640</div>
+            </div>
+          </div>
+          <div className="content flex">
+            <span className="title">2008- 2014</span>
+            <div>
+              <div className="font-bold">Computer Engineering</div>
+              <div>
+                HIGH SCHOOL Anukoolnaree school kalasin (science) GPA: 3.85
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="header">Contact Info</div>
         <div className="content">
           <div>
@@ -29,28 +59,6 @@ const AboutMe = () => {
             >
               https://www.linkedin.com/in/thanatcha-sangphet-8b19b3137
             </a>
-          </div>
-        </div>
-      </div>
-      <div className="about-me mt-10">
-        <div className="header">Education</div>
-        <div className="content flex">
-          <span className="title">2014 - 2018</span>
-          <div>
-            <div className="font-bold">Computer Engineering</div>
-            <div>
-              King mongkut's institute of technology ladkrabang GPA: 2.64
-            </div>
-            <div className="text-bold">TOEIC Score : 640</div>
-          </div>
-        </div>
-        <div className="content flex">
-          <span className="title">2008- 2014</span>
-          <div>
-            <div className="font-bold">Computer Engineering</div>
-            <div>
-              HIGH SCHOOL Anukoolnaree school kalasin (science) GPA: 3.85
-            </div>
           </div>
         </div>
       </div>
