@@ -6,16 +6,25 @@
   margin: 0 auto;
   display: flex;
   justify-content: end;
+}
 
-  .item {
-    cursor: pointer;
-    padding-top: 10px;
-    margin: 10px 20px;
-    font-size: 1.2rem;
-  }
+.navbar-mobile {
+  height: 60px;
+  background-color: #1c1c1c;
+  color: white;
+  margin: 0 auto;
+}
+.item {
+  cursor: pointer;
+  padding-top: 10px;
+  margin: 10px 20px;
+  font-size: 1.2rem;
+}
 
-  :hover.item {
-    color: #e0dd5a;
-    border-bottom: 3px solid #fcd34d;
-  }
+:hover.item {
+  color: #e0dd5a;
+  border-bottom: 3px solid #fcd34d;
+}
+.ant-drawer-body {
+  padding: 0 !important;
 }
