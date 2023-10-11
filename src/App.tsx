@@ -5,9 +5,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Certificated from "./components/Certificated/Certificated";
-import { useEffect, useRef, useState } from "react";
-import { toggleDarkMode } from "./helper";
-import { Switch } from "antd";
+import { useRef } from "react";
 
 function App() {
   const componentsToScrollTo = [
