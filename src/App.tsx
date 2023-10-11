@@ -5,7 +5,9 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Certificated from "./components/Certificated/Certificated";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { toggleDarkMode } from "./helper";
+import { Switch } from "antd";
 
 function App() {
   const componentsToScrollTo = [
@@ -26,7 +28,7 @@ function App() {
   };
 
   return (
-    <>
+    <div>
       <NavBar scrollTo={scrollToComponent} />
 
       <div className="main-content-layout">
@@ -43,7 +45,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

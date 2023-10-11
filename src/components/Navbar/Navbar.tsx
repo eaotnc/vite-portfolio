@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import "./Navbar.scss";
 import Hamburger from "hamburger-react";
-import { Drawer } from "antd";
+import { Drawer, Switch } from "antd";
+import { toggleDarkMode } from "../../helper";
 
 const NavBar: React.FC<{ scrollTo: (index: number) => void }> = ({
   scrollTo,
@@ -40,7 +41,14 @@ const NavBar: React.FC<{ scrollTo: (index: number) => void }> = ({
           closeIcon={false}
           open={showMenu}
         >
-          <div className="navbar-mobile bg-black  h-full">
+          <div className="navbar-mobile h-full">
+            <div className="mode-item">
+              <Switch
+                checkedChildren="light"
+                unCheckedChildren="Dark"
+                onChange={toggleDarkMode}
+              />
+            </div>
             <div className="item" onClick={() => scrollTo(0)}>
               Home
             </div>
@@ -77,6 +85,13 @@ const NavBar: React.FC<{ scrollTo: (index: number) => void }> = ({
       </div>
       <div className="item" onClick={() => scrollTo(4)}>
         Certificate
+      </div>
+      <div className="mode-item">
+        <Switch
+          checkedChildren="light"
+          unCheckedChildren="Dark"
+          onChange={toggleDarkMode}
+        />
       </div>
     </div>
   );

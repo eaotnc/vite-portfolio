@@ -23,7 +23,7 @@
 
   .company-name {
     padding: 20px;
-    background: #3f3f3f;
+    background: var(--background-color);
     max-width: 600px;
     border-radius: 20px;
     font-size: 23px;
@@ -34,7 +34,7 @@
     max-width: 100%;
     padding: 20px;
     border-radius: 20px;
-    background: #242323;
+    background: var(--background-color);
 
     .project-name {
       margin-bottom: 10px;
