@@ -21,19 +21,14 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
             <span className="title">2014 - 2018</span>
             <div>
               <div className="font-bold">Computer Engineering</div>
-              <div>
-                King mongkut's institute of technology ladkrabang GPA: 2.64
-              </div>
-              <div className="text-bold">TOEIC Score : 640</div>
+              <div>King mongkut's institute of technology ladkrabang GPA</div>
             </div>
           </div>
           <div className="content flex">
             <span className="title">2008- 2014</span>
             <div>
               <div className="font-bold">Computer Engineering</div>
-              <div>
-                HIGH SCHOOL Anukoolnaree school kalasin (science) GPA: 3.85
-              </div>
+              <div>HIGH SCHOOL Anukoolnaree school kalasin (science)</div>
             </div>
           </div>
         </div>
