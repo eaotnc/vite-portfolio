@@ -21,7 +21,7 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
             <span className="title">2014 - 2018</span>
             <div>
               <div className="font-bold">Computer Engineering</div>
-              <div>King mongkut's institute of technology ladkrabang GPA</div>
+              <div>King mongkut's institute of technology ladkrabang</div>
             </div>
           </div>
           <div className="content flex">
