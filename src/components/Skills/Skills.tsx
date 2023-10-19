@@ -39,7 +39,7 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
             </div>
             <div>
               <span className="text-amber-300"> Vue2 </span>
-              Vue2, Nuxtjs, VueX, vuetify,
+              Nuxtjs, VueX, vuetify,
             </div>
             <div>
               <span className="text-amber-300"> Angular8 </span>
