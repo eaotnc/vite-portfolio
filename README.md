@@ -2,6 +2,7 @@
 
 this is my online portfolio using vite react typescipt and antd
 created by 2 days
+yolo
 
 this is the link to open in github pages
 
