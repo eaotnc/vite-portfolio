@@ -2,7 +2,6 @@ import React from "react";
 import profilepic from "../../assets/profile-big.png";
 import "./Home.scss";
 import { SocialIcon } from "react-social-icons";
-import { Reveal } from "../common/Reveal";
 import { TextReveal } from "../common/TextReveal";
 const Home = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (

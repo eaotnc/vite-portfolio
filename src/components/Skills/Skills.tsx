@@ -11,7 +11,6 @@ import flutter from "../../assets/flutter-logo.png";
 import bloC from "../../assets/bloc_logo.png";
 import nest from "../../assets/NestJS.svg";
 import docker from "../../assets/docker-logo.png";
-import { Reveal } from "../common/Reveal";
 import { TextReveal } from "../common/TextReveal";
 
 const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
