@@ -10,7 +10,7 @@ import firebase from "../../assets/firebase.png";
 import flutter from "../../assets/flutter-logo.png";
 import bloC from "../../assets/bloc_logo.png";
 import nest from "../../assets/NestJS.svg";
-import docker from "../../assets/dockerlogo.png";
+import docker from "../../assets/docker-logo.png";
 
 const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
@@ -60,7 +60,12 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
               />
               <img className="logo" src={nest} alt="nest" />
               <img className="logo" src={firebase} alt="firebase" />
-              <img className="logo" src={docker} alt="docker" />
+              <img
+                className="logo"
+                src={docker}
+                style={{ width: "120px" }}
+                alt="docker"
+              />
             </div>
 
             <div>
