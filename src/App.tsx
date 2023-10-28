@@ -31,8 +31,8 @@ function App() {
 
       <div className="main-content-layout">
         <Home ref={componentsToScrollTo[0]} />
-        <Skills ref={componentsToScrollTo[1]} />
-        <AboutMe ref={componentsToScrollTo[2]} />
+        <Skills ref={componentsToScrollTo[2]} />
+        <AboutMe ref={componentsToScrollTo[1]} />
         <Experience ref={componentsToScrollTo[3]} />
         <Certificated ref={componentsToScrollTo[4]} />
         <div className="text-gray-400 h-10 mt-10 flex justify-between">
