@@ -12,6 +12,8 @@ export const Reveal = ({ children, width = "fit-content" }: Props) => {
   useEffect(() => {
     if (isInView) {
       mainControl.start("visible");
+    } else {
+      mainControl.start("hidden");
     }
   }, [isInView]);
 
@@ -19,12 +21,12 @@ export const Reveal = ({ children, width = "fit-content" }: Props) => {
     <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 50 },
+          hidden: { opacity: 0, y: 80 },
           visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
         animate={mainControl}
-        transition={{ duration: 0.5, delay: 0.25 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
       >
         {children}
       </motion.div>
