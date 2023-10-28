@@ -2,7 +2,7 @@ import "./Skills.scss";
 import React from "react";
 import reactLogo from "../../assets/react.svg";
 import vueLogo from "../../assets/vuejs.png";
-import angular from "../../assets/angularlogo.png";
+import angular from "../../assets/angular.svg";
 import antdLogo from "../../assets/antd.png";
 import tailwindLogo from "../../assets/tailwind.png";
 import nodejsLog from "../../assets/nodejs.png";
