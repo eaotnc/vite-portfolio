@@ -4,7 +4,7 @@ import reactLogo from "../../assets/react.svg";
 import vueLogo from "../../assets/vuejs.png";
 import angular from "../../assets/angular.svg";
 import antdLogo from "../../assets/antd.png";
-import tailwindLogo from "../../assets/tailwind.png";
+import tailwindLogo from "../../assets/tailwindcss.png";
 import nodejsLog from "../../assets/nodejs.png";
 import firebase from "../../assets/firebase.png";
 import flutter from "../../assets/flutter-logo.png";
