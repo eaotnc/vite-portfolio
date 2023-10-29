@@ -12,6 +12,7 @@ const NavBar: React.FC<{ scrollTo: (index: number) => void }> = ({
     width: window.innerWidth,
     height: window.innerHeight,
   });
+  console.log("width", windowSize);
 
   useEffect(() => {
     function handleResize() {
@@ -27,7 +28,7 @@ const NavBar: React.FC<{ scrollTo: (index: number) => void }> = ({
     };
   }, []);
 
-  if (windowSize.width < 600) {
+  if (windowSize.width < 680) {
     return (
       <div className="p-4" style={{ float: "right" }}>
         <Hamburger

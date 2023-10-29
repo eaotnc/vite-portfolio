@@ -1,11 +1,11 @@
 .navbar {
-  width: 100%;
+  width: 100vw;
   height: 60px;
   background-color: var(--background-color);
   color: var(--text-color);
   margin: 0 auto;
+  margin-left: 40%;
   display: flex;
-  justify-content: end;
 }
 
 .navbar-mobile {
@@ -34,4 +34,11 @@
 }
 .ant-drawer-body {
   padding: 0 !important;
+}
+
+@media screen and (max-width: 890px) {
+  .navbar {
+    width: 100vw;
+    margin-left: 0;
+  }
 }
