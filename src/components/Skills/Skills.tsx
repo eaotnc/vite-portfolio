@@ -12,6 +12,7 @@ import bloC from "../../assets/bloc_logo.png";
 import nest from "../../assets/NestJS.svg";
 import docker from "../../assets/docker-logo.png";
 import { TextReveal } from "../common/TextReveal";
+import HoverScale from "../common/HoverScale";
 
 const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
@@ -25,15 +26,27 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
             <div className="skill-title">Front end</div>
             <div>
               <div className="flex justify-start flex-wrap">
-                <img className="logo" src={reactLogo} alt="react" />
-                <img className="logo" src={vueLogo} alt="vueLogo" />
-                <img className="logo" src={angular} alt="angular" />
-                <img className="logo" src={antdLogo} alt="antdLogo" />
-                <img
-                  className="logo"
-                  src={tailwindLogo}
-                  alt="tailwindLogo"
-                  style={{ width: 80 }}
+                <HoverScale
+                  child={<img className="logo" src={reactLogo} alt="react" />}
+                />
+                <HoverScale
+                  child={<img className="logo" src={vueLogo} alt="vueLogo" />}
+                />
+                <HoverScale
+                  child={<img className="logo" src={angular} alt="angular" />}
+                />
+                <HoverScale
+                  child={<img className="logo" src={antdLogo} alt="antdLogo" />}
+                />
+                <HoverScale
+                  child={
+                    <img
+                      className="logo"
+                      src={tailwindLogo}
+                      alt="tailwindLogo"
+                      style={{ width: 80 }}
+                    />
+                  }
                 />
               </div>
               <div>
@@ -57,19 +70,31 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
             <div className="skill-title">Server-side</div>
             <div>
               <div className="flex justify-start flex-wrap">
-                <img
-                  className="logo"
-                  src={nodejsLog}
-                  alt="nodejsLog"
-                  style={{ width: 180 }}
+                <HoverScale
+                  child={
+                    <img
+                      className="logo"
+                      src={nodejsLog}
+                      alt="nodejsLog"
+                      style={{ width: 180 }}
+                    />
+                  }
                 />
-                <img className="logo" src={nest} alt="nest" />
-                <img className="logo" src={firebase} alt="firebase" />
-                <img
-                  className="logo"
-                  src={docker}
-                  style={{ width: "120px" }}
-                  alt="docker"
+                <HoverScale
+                  child={<img className="logo" src={nest} alt="nest" />}
+                />
+                <HoverScale
+                  child={<img className="logo" src={firebase} alt="firebase" />}
+                />{" "}
+                <HoverScale
+                  child={
+                    <img
+                      className="logo"
+                      src={docker}
+                      style={{ width: "120px" }}
+                      alt="docker"
+                    />
+                  }
                 />
               </div>
 
@@ -93,8 +118,12 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
           <div className="skill-item">
             <div className="skill-title">Mobile Cross PlatForm</div>
             <div className="flex justify-start flex-wrap">
-              <img className="logo" src={flutter} alt="flutter" />
-              <img className="logo" src={bloC} alt="bloC" />
+              <HoverScale
+                child={<img className="logo" src={flutter} alt="flutter" />}
+              />
+              <HoverScale
+                child={<img className="logo" src={bloC} alt="bloC" />}
+              />
             </div>
             <div>
               <div>
