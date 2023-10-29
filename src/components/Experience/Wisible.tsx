@@ -1,4 +1,5 @@
 import "./Experience.scss";
+import ProjectBox from "./ProjectBox";
 const Wisible = () => {
   return (
     <>
@@ -15,14 +16,16 @@ const Wisible = () => {
         <div className="flex">
           <div className="vertical-bar" />
           <div>
-            <div className="project">
-              <div className="project-name"> Wisible React webApp </div>
-              <div>Sales CRM help sale to less work sheet and sale more.</div>
-              <div>Be a Full-stack with</div>
-              <span className="text-amber-300">
-                React- Apollo, semanticUi, scss, and nodejs -graphq, sql, knex
-              </span>
-            </div>
+            <ProjectBox
+              name="Wisible React webApp"
+              desc="Sales CRM help sale to less work sheet and sale more."
+              descSecond="Be a Full-stack with"
+              child={
+                <span className="text-amber-300">
+                  React- Apollo, semanticUi, scss, and nodejs -graphq, sql, knex
+                </span>
+              }
+            />
           </div>
         </div>
       </div>

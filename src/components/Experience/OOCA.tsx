@@ -1,4 +1,5 @@
 import "./Experience.scss";
+import ProjectBox from "./ProjectBox";
 const OOCA = () => {
   return (
     <div className="company">
@@ -14,20 +15,18 @@ const OOCA = () => {
       <div className="flex">
         <div className="vertical-bar" />
         <div>
-          <div className="project">
-            <div className="project-name"> OOCA Vue website </div>
-            <div>
-              Online video call platform to connect with psychologists and
-              psychiatrists.
-            </div>
-            <div>
-              - Be a Full-stack developer and maintainer, and fixing issue from
-              legaxy code with
-            </div>
-            <span className="text-amber-300">
-              Vuejs2-VueX, vuetify, Nodejs, Reactjs
-            </span>
-          </div>
+          <ProjectBox
+            name="OOCA Vue webApplication"
+            desc="Online video call platform to connect with psychologists and
+            psychiatrists."
+            descSecond="- Be a Full-stack developer and maintainer, and fixing issue from
+            legaxy code with"
+            child={
+              <span className="text-amber-300">
+                Vuejs2-VueX, vuetify, Nodejs, Reactjs
+              </span>
+            }
+          />
         </div>
       </div>
     </div>

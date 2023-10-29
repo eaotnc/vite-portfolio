@@ -1,4 +1,5 @@
 import "./Experience.scss";
+import ProjectBox from "./ProjectBox";
 const AIS = () => {
   return (
     <div className="company">
@@ -11,38 +12,38 @@ const AIS = () => {
       <div className="flex">
         <div className="vertical-bar" />
         <div>
-          <div className="project">
-            <div className="project-name"> AIS I farm </div>
-            <div>
-              The website that coporate with AIS and Thai goverment for online
-              farming platform
-            </div>
-            my job is create a business intelligent tools with{" "}
-            <span className="text-amber-300">METABASE </span>for helping user
-            analysis farm
-          </div>
+          <ProjectBox
+            name="AIS I farm"
+            desc="The website that corporate with AIS and Thai government for online
+              farming platform"
+            descSecond="my job is create a business intelligent tools with"
+            child={
+              <>
+                <span className="text-amber-300">METABASE </span>for helping
+                user analysis farm
+              </>
+            }
+          />
 
-          <div className="project">
-            <div className="project-name"> Kubota farm </div>
-            <div>
-              The website that coporate with AIS and KUBOTA for online farming
-              platform
-            </div>
-            Be a Front-end maintainer, and fixing issue from legaxy code using
-            <span className="text-amber-300">Angular8, RxJS, leafletjs,</span>
-          </div>
+          <ProjectBox
+            name="Kubota farm"
+            desc="The website that corporate with AIS and KUBOTA for online farming platform"
+            descSecond="Be a Front-end maintainer, and fixing issue from legacy code using"
+            child={
+              <span className="text-amber-300">Angular8, RxJS, leafletjs,</span>
+            }
+          />
 
-          <div className="project">
-            <div className="project-name"> Blockchain as a service </div>
-            <div>
-              The POC website for create new network of blockchian with
-              hyperledger.
-            </div>
-            Be a Front-end developer with
-            <span className="text-amber-300">
-              React- typeScript , Redux-toolkit,
-            </span>
-          </div>
+          <ProjectBox
+            name="Blockchain as a service"
+            desc="The POC website for create new network of blockchian with hyperledger"
+            descSecond="Be a Front-end developer with"
+            child={
+              <span className="text-amber-300">
+                React- typeScript , Redux-toolkit,
+              </span>
+            }
+          />
         </div>
       </div>
     </div>
