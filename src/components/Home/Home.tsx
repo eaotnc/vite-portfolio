@@ -3,16 +3,43 @@ import profilepic from "../../assets/profile-big.png";
 import "./Home.scss";
 import { SocialIcon } from "react-social-icons";
 import { TextReveal } from "../common/TextReveal";
+import TextTransition, { presets } from "react-text-transition";
+
+const TEXTS = [
+  "Software Developer",
+  "Web Developer",
+  "Mobile Developer",
+  "BackEnd Developer",
+  "Photographer",
+  "Traveler",
+  "Biker",
+  "Farmer",
+  "Gamer",
+];
+
 const Home = React.forwardRef<HTMLDivElement>((_, ref) => {
+  const [index, setIndex] = React.useState(0);
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      2000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <div ref={ref} className="home flex justify-center flex-wrap">
       <div>
         <TextReveal>
-          <>
-            <h1>Thanatcha </h1>
-            <h1>Pitithadakul </h1>
-            <h1 className="text-amber-300">--Software Developer</h1>
-          </>
+          <div className="w-100">
+            <h1>Hi I'm Eao </h1>
+            <h1>Thanatcha Pitithadakul </h1>
+            <div className="text-xl">I'm a </div>
+
+            <TextTransition springConfig={presets.stiff}>
+              <h1 className="text-amber-300">{TEXTS[index % TEXTS.length]}</h1>
+            </TextTransition>
+          </div>
         </TextReveal>
 
         <TextReveal>
