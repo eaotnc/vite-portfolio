@@ -44,6 +44,17 @@ a {
   }
 }
 
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  z-index: 2000;
+  background: var(--primary-color);
+  transform-origin: 0%;
+}
+
 @media screen and (max-width: 890px) {
   .main-content-layout {
     max-width: 100%;

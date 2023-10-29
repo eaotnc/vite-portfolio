@@ -7,6 +7,7 @@ import Experience from "./components/Experience/Experience";
 import Certificated from "./components/Certificated/Certificated";
 import { useRef } from "react";
 import AnimatedCursor from "react-animated-cursor";
+import { motion, useScroll } from "framer-motion";
 
 function App() {
   const componentsToScrollTo = [
@@ -16,6 +17,7 @@ function App() {
     useRef<HTMLDivElement | null>(null),
     useRef<HTMLDivElement | null>(null),
   ];
+  const { scrollYProgress } = useScroll();
 
   const scrollToComponent = (index: number) => {
     const elementToScrollTo = componentsToScrollTo[index]?.current;
@@ -28,6 +30,10 @@ function App() {
 
   return (
     <div>
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      />
       <AnimatedCursor
         innerSize={8}
         outerSize={35}
