@@ -8,7 +8,7 @@ function App() {
   return (
     <MainLayout>
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route path="/vite-portfolio" element={<MainPage />} />
         <Route path="*" element={<>Page Not Found</>} />
       </Routes>
     </MainLayout>
