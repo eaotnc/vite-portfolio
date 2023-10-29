@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Certificated from "./components/Certificated/Certificated";
 import { useRef } from "react";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   const componentsToScrollTo = [
@@ -27,6 +28,19 @@ function App() {
 
   return (
     <div>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        innerStyle={{
+          backgroundColor: "#48bdc9",
+        }}
+        outerStyle={{
+          border: "3px solid #48bdc9",
+        }}
+      />
       <NavBar scrollTo={scrollToComponent} />
 
       <div className="main-content-layout">
