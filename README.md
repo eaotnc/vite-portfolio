@@ -10,7 +10,7 @@ this is the link to open in github pages
 
 # how to deploy to github pages
 
-`yarn run build
+yarn run build
 git add dist -f
-git commit -m "Adding dist"
-git subtree push --prefix dist origin gh-pages`
+git commit -m "fix part"
+git subtree push --prefix dist origin gh-pages
