@@ -10,7 +10,6 @@ const OOCA = () => {
         <a className="p-2" href="https://ooca.co" target="_blank">
           https://ooca.co
         </a>
-        <div></div>
       </div>
       <div className="flex">
         <div className="vertical-bar" />

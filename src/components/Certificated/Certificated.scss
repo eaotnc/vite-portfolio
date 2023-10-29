@@ -5,10 +5,10 @@
   width: 60%;
 
   a {
-    color: white;
+    color: var(--text-color);
   }
   .header {
-    width: 300px;
+    max-width: 300px;
     color: #fcd34d;
     border-bottom: 3px solid #48bdc9;
 
@@ -26,7 +26,7 @@
 
   .project {
     margin: 10px;
-    max-width: 100%;
+    max-width: 90vw;
     padding: 20px;
     border-radius: 20px;
     .project-name {
@@ -44,9 +44,9 @@
 
 @media screen and (max-width: 890px) {
   .certificated {
-    width: 100%;
+    width: 90vw;
     .cert-image {
-      max-width: 200px;
+      max-width: 70vw;
     }
   }
 }

@@ -6,7 +6,7 @@ const MoomMoong = () => {
         <div className="font-bold text-amber-300">
           MoomMoong R&d co.ltd (partime)
         </div>
-        2021- 2021 (4 month)
+        2021- 2021
         <a className="p-2" href="https://moom-mong.com" target="_blank">
           https://moom-mong.com
         </a>

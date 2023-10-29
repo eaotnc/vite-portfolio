@@ -7,7 +7,7 @@
     color: white;
   }
   .header {
-    width: 200px;
+    max-width: 200px;
     color: #fcd34d;
     border-bottom: 3px solid #48bdc9;
 
@@ -20,18 +20,20 @@
     margin: 10px;
     margin-left: 40px;
   }
+  .company {
+    width: 90vw;
+  }
 
   .company-name {
     padding: 20px;
     background: var(--background-color);
-    max-width: 600px;
     border-radius: 20px;
     font-size: 23px;
   }
 
   .project {
     margin: 10px;
-    max-width: 100%;
+    max-width: 90vw;
     padding: 20px;
     border-radius: 20px;
     background: var(--background-color);
@@ -50,6 +52,6 @@
 }
 @media screen and (max-width: 890px) {
   .experience {
-    width: 100%;
+    width: 90vw;
   }
 }
