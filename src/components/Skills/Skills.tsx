@@ -27,7 +27,11 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
             <div>
               <div className="flex justify-start flex-wrap">
                 <HoverScale
-                  child={<img className="logo" src={reactLogo} alt="react" />}
+                  child={
+                    <a href="https://react.dev/" target="_blank">
+                      <img className="logo" src={reactLogo} alt="react" />
+                    </a>
+                  }
                 />
                 <HoverScale
                   child={<img className="logo" src={vueLogo} alt="vueLogo" />}
