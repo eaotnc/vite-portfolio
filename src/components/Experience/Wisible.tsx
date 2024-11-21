@@ -1,17 +1,18 @@
 import "./Experience.scss";
 import ProjectBox from "./ProjectBox";
+import wisible from "../../assets/company-logo/wisible.png";
+import CompanyName from "./CompanyName";
+
 const Wisible = () => {
   return (
     <>
       <div className="company">
-        <div className="company-name">
-          <a href="https://www.wisible.com" target="_blank">
-            <div className="font-bold text-amber-300">
-              WISIBLE.io - fiveloop co.ltd
-            </div>
-            2018 - 2019 ( 1 year 6 month)
-          </a>
-        </div>
+        <CompanyName
+          name="WISIBLE.io - fiveloop co.ltd"
+          imagePath={wisible}
+          link="https://www.bizcuitsolution.com"
+          title=" 2018 - 2019 ( 1 year 6 month)"
+        />
         <div className="flex">
           <div className="vertical-bar" />
           <div>

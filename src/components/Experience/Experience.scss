@@ -18,7 +18,7 @@
   .vertical-bar {
     border-left: 3px solid #48bdc9;
     margin: 10px;
-    margin-left: 40px;
+    margin-left: 48px;
   }
   .company {
     width: 90vw;
@@ -26,13 +26,17 @@
 
   .company-name {
     padding: 20px;
+    padding-left: 0;
     background: var(--background-color);
     border-radius: 20px;
     font-size: 23px;
+    display: flex;
 
-    .main-company-name {
-      color: #fcd34d;
-      font-weight: bold;
+    .company-img {
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+      background-color: aliceblue;
     }
   }
 

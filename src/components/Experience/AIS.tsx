@@ -1,15 +1,18 @@
 import "./Experience.scss";
 import ProjectBox from "./ProjectBox";
+import ais from "../../assets/company-logo/ais.png";
+import CompanyName from "./CompanyName";
+
 const AIS = () => {
   return (
     <div className="company">
       <div className="company-name">
-        <a href="https://www.ais.th" target="_blank">
-          <div className="font-bold text-amber-300">
-            Advanced Info Services Plc. (outsource){" "}
-          </div>
-          2020- 2021 (1 year 6 month) doing a 3 project as follows
-        </a>
+        <CompanyName
+          name="Advanced Info Services Plc. (outsource)"
+          link="https://www.ais.th"
+          imagePath={ais}
+          title="2020- 2021 (1 year 6 month) 3 project "
+        />
       </div>
       <div className="flex">
         <div className="vertical-bar" />

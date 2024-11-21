@@ -1,16 +1,18 @@
+import CompanyName from "./CompanyName";
 import "./Experience.scss";
 import ProjectBox from "./ProjectBox";
+import moomMoong from "../../assets/company-logo/moomMoong.png";
+
 const MoomMoong = () => {
   return (
     <div className="company">
-      <div className="company-name">
-        <a href="https://moom-mong.com" target="_blank">
-          <div className="font-bold text-amber-300">
-            MoomMoong R&d co.ltd (partime)
-          </div>
-          2021 - 2021
-        </a>
-      </div>
+      <CompanyName
+        name="MoomMoong R&d co.ltd (partime)"
+        link="https://moom-mong.com"
+        title="2021 - 2021"
+        imagePath={moomMoong}
+      />
+
       <div className="flex">
         <div className="vertical-bar" />
         <div>

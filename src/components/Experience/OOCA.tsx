@@ -1,16 +1,17 @@
+import CompanyName from "./CompanyName";
 import "./Experience.scss";
 import ProjectBox from "./ProjectBox";
+import ooca from "../../assets/company-logo/ooca.png";
+
 const OOCA = () => {
   return (
     <div className="company">
-      <div className="company-name">
-        <a href="https://ooca.co" target="_blank">
-          <div className="font-bold text-amber-300">
-            OOCA - telemedica co. ltd
-          </div>
-          2019- 2020 (9 month)
-        </a>
-      </div>
+      <CompanyName
+        name="OOCA - telemedica co. ltd"
+        link="https://ooca.co"
+        title="2019- 2020 (9 month)"
+        imagePath={ooca}
+      />
       <div className="flex">
         <div className="vertical-bar" />
         <div>

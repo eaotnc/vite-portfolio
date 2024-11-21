@@ -1,17 +1,17 @@
+import CompanyName from "./CompanyName";
 import "./Experience.scss";
 import ProjectBox from "./ProjectBox";
+import bizcuitSolution from "../../assets/company-logo/bizcuitsolution.png";
 
 const BizcuitSolution = () => {
   return (
     <div className="company">
-      <div className="company-name">
-        <a href="https://www.bizcuitsolution.com" target="_blank">
-          <div className="font-bold text-amber-300">
-            Bizcuitsolution co., ltd
-          </div>
-          2021- present (2 year) doing a 4 project as follows
-        </a>
-      </div>
+      <CompanyName
+        name="TechCombine"
+        imagePath={bizcuitSolution}
+        link="https://www.bizcuitsolution.com"
+        title="2023 - present (1 year) 1 project "
+      />
       <div className="flex">
         <div className="vertical-bar" />
         <div>

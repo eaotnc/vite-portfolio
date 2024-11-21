@@ -1,15 +1,18 @@
+import { motion } from "framer-motion";
 import "./Experience.scss";
 import ProjectBox from "./ProjectBox";
+import techCombine from "../../assets/company-logo/techcombine.png";
+import CompanyName from "./CompanyName";
 
 const TechCombine = () => {
   return (
     <div className="company">
-      <div className="company-name">
-        <a href="https://techcombine.co" target="_blank">
-          <div className="font-bold text-amber-300">TechCombine </div>
-          2023 - present (1 year) doing a 1 project as follows
-        </a>
-      </div>
+      <CompanyName
+        name="TechCombine"
+        link="https://www.techcombine.co"
+        imagePath={techCombine}
+        title="2023 - present (1 year) 1 project "
+      />
       <div className="flex">
         <div className="vertical-bar" />
         <div>
