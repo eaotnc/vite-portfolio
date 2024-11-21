@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import "./Experience.scss";
 import ProjectBox from "./ProjectBox";
 import techCombine from "../../assets/company-logo/techcombine.png";
