@@ -32,8 +32,8 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
             <div className="content flex">
               <span className="title">2008- 2014</span>
               <div>
-                <div className="font-bold">Computer Engineering</div>
-                <div>HIGH SCHOOL Anukoolnaree school kalasin (science)</div>
+                <div className="font-bold">Science Program</div>
+                <div>HIGH SCHOOL Anukoolnaree school kalasin</div>
               </div>
             </div>
           </div>
@@ -58,10 +58,10 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
             <div>
               <span className="title">linkedin:</span>
               <a
-                href="https://www.linkedin.com/in/thanatcha-sangphet-8b19b3137"
+                href="https://www.linkedin.com/in/thanatcha-pitithadakul-8b19b3137"
                 target="_blank"
               >
-                https://www.linkedin.com/in/thanatcha-sangphet-8b19b3137
+                https://www.linkedin.com/in/thanatcha-pitithadakul-8b19b3137
               </a>
             </div>
           </div>
