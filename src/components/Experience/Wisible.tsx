@@ -5,12 +5,11 @@ const Wisible = () => {
     <>
       <div className="company">
         <div className="company-name">
-          <div className="font-bold text-amber-300">
-            WISIBLE.io - fiveloop co.ltd
-          </div>
-          2018 - 2019 ( 1 year 6 month)
-          <a className="p-2" href="https://www.wisible.com" target="_blank">
-            https://www.wisible.com
+          <a href="https://www.wisible.com" target="_blank">
+            <div className="font-bold text-amber-300">
+              WISIBLE.io - fiveloop co.ltd
+            </div>
+            2018 - 2019 ( 1 year 6 month)
           </a>
         </div>
         <div className="flex">

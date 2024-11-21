@@ -29,6 +29,11 @@
     background: var(--background-color);
     border-radius: 20px;
     font-size: 23px;
+
+    .main-company-name {
+      color: #fcd34d;
+      font-weight: bold;
+    }
   }
 
   .project {

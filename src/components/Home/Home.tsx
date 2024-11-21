@@ -12,8 +12,9 @@ const TEXTS = [
   "BackEnd Developer",
   "Photographer",
   "Traveler",
+  "Coffee Maker",
   "Biker",
-  "Farmer",
+  "Cactus cultivator",
   "Gamer",
 ];
 

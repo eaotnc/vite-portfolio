@@ -5,8 +5,12 @@ const BizcuitSolution = () => {
   return (
     <div className="company">
       <div className="company-name">
-        <div className="font-bold text-amber-300">Bizcuitsolution co., ltd</div>
-        2021- present (2 year) doing a 4 project as follows
+        <a href="https://www.bizcuitsolution.com" target="_blank">
+          <div className="font-bold text-amber-300">
+            Bizcuitsolution co., ltd
+          </div>
+          2021- present (2 year) doing a 4 project as follows
+        </a>
       </div>
       <div className="flex">
         <div className="vertical-bar" />

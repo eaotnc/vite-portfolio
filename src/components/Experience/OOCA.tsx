@@ -4,12 +4,11 @@ const OOCA = () => {
   return (
     <div className="company">
       <div className="company-name">
-        <div className="font-bold text-amber-300">
-          OOCA - telemedica co. ltd
-        </div>
-        2019- 2020 (9 month)
-        <a className="p-2" href="https://ooca.co" target="_blank">
-          https://ooca.co
+        <a href="https://ooca.co" target="_blank">
+          <div className="font-bold text-amber-300">
+            OOCA - telemedica co. ltd
+          </div>
+          2019- 2020 (9 month)
         </a>
       </div>
       <div className="flex">

@@ -5,8 +5,10 @@ const TechCombine = () => {
   return (
     <div className="company">
       <div className="company-name">
-        <div className="font-bold text-amber-300">TechCombine </div>
-        2023 - present (1 year) doing a 1 project as follows
+        <a href="https://techcombine.co" target="_blank">
+          <div className="font-bold text-amber-300">TechCombine </div>
+          2023 - present (1 year) doing a 1 project as follows
+        </a>
       </div>
       <div className="flex">
         <div className="vertical-bar" />

@@ -4,10 +4,12 @@ const AIS = () => {
   return (
     <div className="company">
       <div className="company-name">
-        <div className="font-bold text-amber-300">
-          Advanced Info Services Plc. (outsource){" "}
-        </div>
-        2020- 2021 (1 year 6 month) doing a 3 project as follows
+        <a href="https://www.ais.th" target="_blank">
+          <div className="font-bold text-amber-300">
+            Advanced Info Services Plc. (outsource){" "}
+          </div>
+          2020- 2021 (1 year 6 month) doing a 3 project as follows
+        </a>
       </div>
       <div className="flex">
         <div className="vertical-bar" />

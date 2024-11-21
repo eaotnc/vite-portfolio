@@ -11,7 +11,7 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
     >
       <Reveal>
         <img
-          className="mr-20"
+          className="mr-20 mt-10"
           style={{ width: 250, height: 350 }}
           src={profileGrad}
           alt="profileGrad"
