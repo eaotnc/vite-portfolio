@@ -37,7 +37,9 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
               </div>
             </div>
           </div>
-          <div className="header">Contact Info</div>
+          <div className="header" style={{ maxWidth: "200px" }}>
+            Contact Info
+          </div>
           <div className="content">
             <div>
               <span className="title">Phone:</span> 089-9403115
