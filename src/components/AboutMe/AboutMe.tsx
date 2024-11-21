@@ -33,7 +33,7 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
               <span className="title">2008- 2014</span>
               <div>
                 <div className="font-bold">Science Program</div>
-                <div>HIGH SCHOOL Anukoolnaree school kalasin</div>
+                <div>Anukoolnaree school kalasin</div>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
               bonsai.eao@gmail.com
             </div>
             <div>
-              <span className="title">Address:</span> Bangkok Jatujak district
+              <span className="title">Address:</span> Jatujak district Bangkok
             </div>
             <div>
               <span className="title">Github:</span>

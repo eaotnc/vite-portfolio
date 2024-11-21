@@ -1,16 +1,22 @@
 import React from "react";
+import { Reveal } from "../common/Reveal";
+
 import AIS from "./AIS";
 import BizcuitSolution from "./Bizcuitsolution";
 import "./Experience.scss";
 import MoomMoong from "./MoomMoong";
 import OOCA from "./OOCA";
 import Wisible from "./Wisible";
-import { Reveal } from "../common/Reveal";
+import TechCombine from "./TechCombine";
+
 const Experience = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref} className="experience">
       <Reveal>
         <div className="header mb-10">Experience</div>
+      </Reveal>
+      <Reveal>
+        <TechCombine />
       </Reveal>
       <Reveal>
         <BizcuitSolution />
