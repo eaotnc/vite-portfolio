@@ -4,7 +4,6 @@ import { Reveal } from "../common/Reveal";
 import AIS from "./AIS";
 import BizcuitSolution from "./Bizcuitsolution";
 import "./Experience.scss";
-import MoomMoong from "./MoomMoong";
 import OOCA from "./OOCA";
 import Wisible from "./Wisible";
 import TechCombine from "./TechCombine";
