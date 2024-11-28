@@ -45,7 +45,7 @@ const Home = React.forwardRef<HTMLDivElement>((_, ref) => {
 
         <TextReveal>
           <p className="p-6 w-80">
-            5-year software developer. strongly work with
+            6-year software developer. strongly work with
             <span className="text-amber-300">
               Reactjs, angular, vuejs, nodejs,
             </span>

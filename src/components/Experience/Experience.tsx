@@ -24,9 +24,9 @@ const Experience = React.forwardRef<HTMLDivElement>((_, ref) => {
       <Reveal>
         <AIS />
       </Reveal>
-      <Reveal>
+      {/* <Reveal>
         <MoomMoong />
-      </Reveal>
+      </Reveal> */}
       <Reveal>
         <OOCA />
       </Reveal>

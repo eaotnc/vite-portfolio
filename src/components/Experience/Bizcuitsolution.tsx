@@ -10,7 +10,7 @@ const BizcuitSolution = () => {
         name="Bizcuit Solution"
         imagePath={bizcuitSolution}
         link="https://www.bizcuitsolution.com"
-        title="2023 - present (1 year) 1 project "
+        title="2021 - 2023 (2 YEAR 2 MONTH)"
       />
       <div className="flex">
         <div className="vertical-bar" />
