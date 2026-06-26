@@ -8,45 +8,51 @@ const AIS = () => {
     <div className="company">
       <div className="company-name">
         <CompanyName
-          name="Advanced Info Services Plc. (outsource)"
+          name="Advanced Info Services Plc. (Outsource)"
           link="https://www.ais.th"
           imagePath={ais}
-          title="2020- 2021 (1 year 6 month) 3 project "
+          title="Jun 2020 - Sep 2021"
         />
       </div>
       <div className="flex">
         <div className="vertical-bar" />
         <div>
           <ProjectBox
-            name="AIS I farm"
-            desc="The website that corporate with AIS and Thai government for online
-              farming platform"
-            descSecond="my job is create a business intelligent tools with"
+            name="KUBOTA FARM"
+            desc="Digital farming platform developed by AIS and government partners."
             child={
-              <>
-                <span className="text-amber-300">METABASE </span>for helping
-                user analysis farm
-              </>
+              <ul className="project-bullets">
+                <li>
+                  Maintained and enhanced frontend applications using{" "}
+                  <span className="text-amber-300">Angular</span> and{" "}
+                  <span className="text-amber-300">RxJS</span>.
+                </li>
+                <li>
+                  Built business intelligence dashboards using{" "}
+                  <span className="text-amber-300">Metabase</span>.
+                </li>
+                <li>
+                  Delivered data visualization tools to support farming
+                  analysis and decision-making using{" "}
+                  <span className="text-amber-300">Leafletjs</span>.
+                </li>
+              </ul>
             }
           />
 
           <ProjectBox
-            name="Kubota farm"
-            desc="The website that corporate with AIS and KUBOTA for online farming platform"
-            descSecond="Be a Front-end maintainer, and fixing issue from legacy code using"
+            name="BLOCKCHAIN AS A SERVICE"
+            desc="Proof-of-concept platform for blockchain network provisioning using Hyperledger."
             child={
-              <span className="text-amber-300">Angular8, RxJS, leafletjs,</span>
-            }
-          />
-
-          <ProjectBox
-            name="Blockchain as a service"
-            desc="The POC website for create new network of blockchian with hyperledger"
-            descSecond="Be a Front-end developer with"
-            child={
-              <span className="text-amber-300">
-                React- typeScript , Redux-toolkit,
-              </span>
+              <ul className="project-bullets">
+                <li>
+                  Developed frontend applications using{" "}
+                  <span className="text-amber-300">
+                    React, TypeScript, and Redux Toolkit
+                  </span>
+                  .
+                </li>
+              </ul>
             }
           />
         </div>

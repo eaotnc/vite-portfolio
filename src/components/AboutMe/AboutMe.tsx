@@ -45,7 +45,7 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
               <span className="title">Phone:</span> 089-9403115
             </div>
             <div>
-              <span className="title">Email:</span> Thanatcha.eao@gmail.com,
+              <span className="title">Email:</span> thanatcha.eao@gmail.com,
               bonsai.eao@gmail.com
             </div>
             <div>

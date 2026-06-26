@@ -7,24 +7,31 @@ const OOCA = () => {
   return (
     <div className="company">
       <CompanyName
-        name="OOCA - telemedica co. ltd"
+        name="Telemedica Co., Ltd."
         link="https://ooca.co"
-        title="2019- 2020 (9 month)"
+        title="Oct 2019 - Jun 2020"
         imagePath={ooca}
       />
       <div className="flex">
         <div className="vertical-bar" />
         <div>
           <ProjectBox
-            name="OOCA Vue webApplication"
-            desc="Online video call platform to connect with psychologists and
-            psychiatrists."
-            descSecond="- Be a Full-stack developer and maintainer, and fixing issue from
-            legaxy code with"
+            name="OOCA"
+            desc="Online mental health consultation platform connecting users with psychologists and psychiatrists."
             child={
-              <span className="text-amber-300">
-                Vuejs2-VueX, vuetify, Nodejs, Reactjs
-              </span>
+              <ul className="project-bullets">
+                <li>
+                  Diagnosed and resolved complex issues in legacy{" "}
+                  <span className="text-amber-300">Vue.js</span> and{" "}
+                  <span className="text-amber-300">Node.js</span> applications
+                  while improving system performance and code quality.
+                </li>
+                <li>
+                  Collaborated with cross-functional teams to deliver new
+                  features and ensure platform stability during high-traffic
+                  events.
+                </li>
+              </ul>
             }
           />
         </div>

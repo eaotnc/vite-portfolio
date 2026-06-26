@@ -54,9 +54,9 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
                 />
               </div>
               <div>
-                <span className="text-amber-300">Reactjs (18.0.2 ),</span>{" "}
-                NextJs, Vite, gasbyJs, redux, redux-toolkit, <br />
-                Zustand, SemanticUi, Antdesign, tailwindcss, reactStoryBook
+                <span className="text-amber-300">Reactjs,</span> NextJs, Vite,
+                redux, redux-toolkit, <br />
+                Zustand, SemanticUi, Antdesign, tailwindcss
               </div>
               <div>
                 <span className="text-amber-300"> Vue2 </span>
@@ -104,16 +104,16 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
 
               <div>
                 <span className="text-amber-300">Nodejs, Nestjs</span>{" "}
-                Expressjs, SQL, Mongodb, Graphql
+                Expressjs, GraphQL, PostgreSQL, MySQL, MongoDB, Prisma
               </div>
 
               <div>
                 <span className="text-amber-300">FireBase</span> FireBaseAuthen,
-                fireStore, fireStorage, firebaceCloundFunction
+                FireStore, FireStorage, FirebaseCloudFunction
               </div>
               <div>
-                <span className="text-amber-300"> Devops</span> k8s, lens, Helm
-                chart , prometheus, grafana, loki
+                <span className="text-amber-300"> Devops</span> Docker, k8s,
+                RabbitMQ, Redis, CircleCI, SonarQube
               </div>
             </div>
           </div>
@@ -131,19 +131,26 @@ const Skills = React.forwardRef<HTMLDivElement>((_, ref) => {
             </div>
             <div>
               <div>
-                <span className="text-amber-300"> Flutter (3.0.2)</span> Flutter
+                <span className="text-amber-300">React Native</span> Zustand,
+                Expo, CircleCI
+              </div>
+              <div>
+                <span className="text-amber-300">Flutter</span> Flutter
                 Provider, BloC
               </div>
             </div>
-            <div className="skill-title">Devops</div>
+            <div className="skill-title">AI-Assistant</div>
             <div>
-              <div>lens, Helm chart , prometheus, grafana, loki</div>
+              <div>
+                <span className="text-amber-300">Claude Code</span>, Antigravity,
+                Cursor
+              </div>
             </div>
             <div className="skill-title">Others</div>
             <div>
               <div>
-                Enzyme, Mocha, jest METABASE, Wordpress,
-                <br /> cypress, C, java, javaScript, python, matlab
+                Jest, Mocha, Enzyme, Cypress, Metabase,
+                <br /> C, Java, JavaScript, Python
               </div>
             </div>
           </div>

@@ -53,6 +53,21 @@
       font-size: 18px;
       color: #fcd34d;
     }
+
+    .project-subtitle {
+      margin-bottom: 8px;
+    }
+
+    ul.project-bullets {
+      list-style: disc;
+      padding-left: 20px;
+      margin-top: 6px;
+
+      li {
+        margin-bottom: 6px;
+        line-height: 1.5;
+      }
+    }
   }
 
   :hover.project {

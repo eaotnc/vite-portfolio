@@ -7,60 +7,78 @@ const BizcuitSolution = () => {
   return (
     <div className="company">
       <CompanyName
-        name="Bizcuit Solution"
+        name="Bizcuit Solution Co., Ltd"
         imagePath={bizcuitSolution}
         link="https://www.bizcuitsolution.com"
-        title="2021 - 2023 (2 YEAR 2 MONTH)"
+        title="Sep 2021 - Dec 2023"
       />
       <div className="flex">
         <div className="vertical-bar" />
         <div>
           <ProjectBox
             name="BRAND-MARCH"
-            desc={`The project help sale contact customer and increase revenue `}
-            descSecond="Be a
-          Flutter developer. making a both IOS, android mobileApp using"
+            desc="Sales engagement platform."
             child={
-              <span className="text-amber-300">
-                Flutter 3.0.2 , Flutter provider, Flutter BLoC as state
-                management
-              </span>
+              <ul className="project-bullets">
+                <li>
+                  Developed cross-platform mobile applications using{" "}
+                  <span className="text-amber-300">Flutter</span>.
+                </li>
+                <li>
+                  Implemented state management using{" "}
+                  <span className="text-amber-300">Provider</span> and{" "}
+                  <span className="text-amber-300">BLoC</span>.
+                </li>
+                <li>Delivered both iOS and Android applications.</li>
+                <li>Successfully learned and adopted Flutter for production use.</li>
+              </ul>
             }
           />
 
           <ProjectBox
             name="CORE-REPORT"
-            desc={`The project is similar to BI but specific to internal product  `}
-            descSecond="Be a Fullstack engineer. making a Frontend, backend, DevOps using"
+            desc="Business Intelligence platform for internal product analytics."
             child={
-              <>
-                <span className="text-amber-300">
-                  Nestjs, Nextjs, k8s cluster aws, clickhouse,
-                </span>
-                applied with Hexagonal design
-              </>
+              <ul className="project-bullets">
+                <li>
+                  Developed highly customizable dashboards and reporting
+                  systems using{" "}
+                  <span className="text-amber-300">
+                    Nodejs, Nestjs, Nextjs
+                  </span>
+                  .
+                </li>
+                <li>
+                  Built reusable frontend components and data visualization
+                  modules.
+                </li>
+                <li>
+                  Collaborated with stakeholders to deliver actionable business
+                  insights.
+                </li>
+              </ul>
             }
           />
+
           <ProjectBox
             name="ARGUS"
-            desc={`   The project that social network scrapper for the interested
-            topic `}
-            descSecond="and uses AI to analyze the data Be a Fullstack engineer, using"
+            desc="Social media monitoring and AI analytics platform."
             child={
-              <span className="text-amber-300">
-                Nodejs, nestjs, bitbucket Pipeline, ReactNextjs ,k8s, docker
-              </span>
-            }
-          />
-          <ProjectBox
-            name="BIZCUIT VISION ANALYTIC (BVA)"
-            desc={` The project uses AI to empower business through CCTV `}
-            descSecond="video Making a web admin frontend with"
-            child={
-              <>
-                <span className="text-amber-300">ReactTypesScrip </span> to
-                create a Frame boundary to detect objects in that boundary
-              </>
+              <ul className="project-bullets">
+                <li>
+                  Developed web administration tools using{" "}
+                  <span className="text-amber-300">React</span> and{" "}
+                  <span className="text-amber-300">TypeScript</span>.
+                </li>
+                <li>
+                  Implemented interactive canvas-based area selection and
+                  object detection interfaces.
+                </li>
+                <li>
+                  Built a reusable frontend architecture for analytics
+                  visualization.
+                </li>
+              </ul>
             }
           />
         </div>

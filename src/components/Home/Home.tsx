@@ -6,10 +6,11 @@ import { TextReveal } from "../common/TextReveal";
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
-  "Software Developer",
+  "Senior Software Engineer",
   "Web Developer",
   "Mobile Developer",
   "BackEnd Developer",
+  "AI-Assisted Developer",
   "Photographer",
   "Traveler",
   "Coffee Maker",
@@ -45,13 +46,18 @@ const Home = React.forwardRef<HTMLDivElement>((_, ref) => {
 
         <TextReveal>
           <p className="p-6 w-80">
-            6-year software developer. strongly work with
+            Senior Software Engineer with 8+ years of experience.
+            <br />
+            Strongly work with{" "}
             <span className="text-amber-300">
-              Reactjs, angular, vuejs, nodejs,
-            </span>
-            and lately <span className="text-amber-300">Flutter.</span> like to
-            make good code quality. love to learn new things. like to work as a
-            team. have lovely hobbies as a photographer
+              Reactjs, React Native, Nextjs, Nodejs, NestJS, PostgreSQL, Docker,
+              Kubernetes,
+            </span>{" "}
+            and CI/CD automation.
+            <br />
+            Actively leveraging AI-assisted tools such as{" "}
+            <span className="text-amber-300">Claude Code</span> to improve
+            delivery speed, code quality, and engineering productivity.
           </p>
         </TextReveal>
 

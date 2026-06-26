@@ -7,12 +7,16 @@ import "./Experience.scss";
 import OOCA from "./OOCA";
 import Wisible from "./Wisible";
 import TechCombine from "./TechCombine";
+import Robowealth from "./Robowealth";
 
 const Experience = React.forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref} className="experience">
       <Reveal>
         <div className="header mb-10">Experience</div>
+      </Reveal>
+      <Reveal>
+        <Robowealth />
       </Reveal>
       <Reveal>
         <TechCombine />
