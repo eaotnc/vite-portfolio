@@ -21,42 +21,33 @@ const Robowealth = () => {
             child={
               <ul className="project-bullets">
                 <li>
-                  Developed and maintained a mobile investment platform for
-                  retail investors using{" "}
+                  Built and maintained a mobile investment platform with{" "}
                   <span className="text-amber-300">
-                    React Native, and Zustand
-                  </span>{" "}
-                  for state management
+                    React Native and Zustand
+                  </span>
+                  .
                 </li>
                 <li>
-                  Integrated AI-assisted development workflows using{" "}
-                  <span className="text-amber-300">Claude Code</span> for
-                  feature development, code reviews, debugging, migration
-                  tasks, and technical documentation.
+                  Used <span className="text-amber-300">Claude Code</span> for
+                  feature development, code reviews, debugging, and migrations.
                 </li>
                 <li>
-                  Implemented secure Biometric Authentication (Face ID / Touch
-                  ID) to improve user login experience and account security.
+                  Implemented Biometric Authentication (Face ID / Touch ID).
                 </li>
                 <li>
-                  Developed Deep Linking capabilities to support seamless
-                  navigation from marketing campaigns, notifications, and
-                  external channels.
+                  Added Deep Linking for marketing campaigns, notifications,
+                  and external channels.
                 </li>
                 <li>
-                  Integrated Push Notification services to enhance user
-                  engagement and investment-related communications.
+                  Integrated Push Notifications for user engagement.
                 </li>
                 <li>
-                  Improved application performance, stability, and
-                  maintainability through code optimization and refactoring by
-                  using <span className="text-amber-300">SonarQube</span>.
+                  Improved performance and maintainability via refactoring with{" "}
+                  <span className="text-amber-300">SonarQube</span>.
                 </li>
                 <li>
-                  Managed and maintained CI/CD pipelines using{" "}
-                  <span className="text-amber-300">CircleCI</span> to
-                  streamline automated build, testing, and deployment
-                  processes.
+                  Managed CI/CD pipelines with{" "}
+                  <span className="text-amber-300">CircleCI</span>.
                 </li>
               </ul>
             }

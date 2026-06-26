@@ -29,13 +29,6 @@ const AboutMe = React.forwardRef<HTMLDivElement>((_, ref) => {
                 <div>King mongkut's institute of technology ladkrabang</div>
               </div>
             </div>
-            <div className="content flex">
-              <span className="title">2008- 2014</span>
-              <div>
-                <div className="font-bold">Science Program</div>
-                <div>Anukoolnaree school kalasin</div>
-              </div>
-            </div>
           </div>
           <div className="header" style={{ maxWidth: "200px" }}>
             Contact Info
